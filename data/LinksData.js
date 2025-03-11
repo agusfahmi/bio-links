@@ -36,31 +36,31 @@ const webLinks = [
         icon: '/linkedin.svg',
         on: true
     },
-    // Install section
+    // featured section
     {
         title: 'Portfolio Website',
         url: 'https://agusfahmiajipramana.com',
-        type: 'install',
+        type: 'featured',
         icon: '/use.png',
         on: true
     },
     {
         title: 'Creative Portfolio',
         url: 'https://www.behance.net/sensaifahmi',
-        type: 'install',
+        type: 'featured',
         icon: '/vercel.svg',
         on: true
     },
     {
         title: 'Lets Connect',
         url: 'https://www.linkedin.com/in/agusfahmiajipramana/',
-        type: 'install',
+        type: 'featured',
         icon: '/doc.png',
         on: true
     },
     {
         title: 'Buy Me a Coffee',
-        url: 'https://www.buymeacoffee.com/realvjy',
+        url: 'https://www.buymeacoffee.com/agfmi',
         type: 'other',
         icon: '/bmc.png',
         on: true

@@ -34,8 +34,8 @@ const Links = () => {
 
 
   // Description and subdescription goes here
-  const descriptionText = descShow ? description : `Write your own fall back text if description not in BioData.js or remove me/leave blank`
-  const subdescText = subdescShow ? subdesc : `Write your own if you want or just remove me/leave blank`
+  const descriptionText = descShow ? description : `Use the link below wisely following the terms and conditions`
+  const subdescText = subdescShow ? subdesc : ``
 
 
   const newProduct = bioData[0].newProduct; // checking for newProduct flag true false
