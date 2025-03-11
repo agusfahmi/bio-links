@@ -2,14 +2,14 @@
 const bioData = [
     {
         name: 'Agus Fahmi Aji Pramana Bio Links',
-        username: 'agusfahmiajipramana.com',
+        username: 'agfmi',
         url: 'https://agusfahmiajipramana.com',
         titleImg: true,
         avatar: '/avatar.png',
         nftAvatar: true,
-        description: 'My bio links',
+        description: '',
         descShow: true,
-        subdesc: 'You can use these link',
+        subdesc: '',
         subdescShow: true,
         newProductUrl: 'https://3dicons.co',
         newProduct: true,
