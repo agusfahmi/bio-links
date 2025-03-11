@@ -27,7 +27,7 @@ const Links = () => {
   const footerText = bioData[0].footerText;
   const author = bioData[0].author;
   const authorURL = bioData[0].authorURL;
-  const titleImage = "Agus Fahmi Aji Pramana Bio Links";
+  // const titleImage = "";
 
   // Check what class to use oval or hex for avatar
   const avatarShape = bioData[0].nftAvatar ? `nft-clipped` : `oval-clipped`

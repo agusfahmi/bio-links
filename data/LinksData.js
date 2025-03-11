@@ -16,67 +16,25 @@ const webLinks = [
         on: true
     },
     {
-        title: 'Dribbble',
-        url: 'https://dribbble.com/realvjy',
-        type: 'social',
-        icon: '/dribbble.svg',
-        on: false
-    },
-    {
-        title: 'Medium',
-        url: 'https://medium.com/@realvjy',
-        type: 'social',
-        icon: '/medium.svg',
-        on: false
-    },
-    {
         title: 'Github',
-        url: 'https://github.com/realvjy',
+        url: 'https://github.com/agusfahmi',
         type: 'social',
         icon: '/github.svg',
         on: true
     },
     {
         title: 'Youtube',
-        url: 'https://youtube.com/realvjy',
+        url: 'https://youtube.com/agusfahmiajipramana',
         type: 'social',
         icon: '/youtube.svg',
-        on: false
-    },
-    {
-        title: 'Figma',
-        url: 'https://figma.com/@realvjy',
-        type: 'social',
-        icon: '/figma.svg',
-        on: true
-    },
-    {
-        title: 'Behance',
-        url: 'https://behance.net/realvjy',
-        type: 'social',
-        icon: '/behance.svg',
-        on: false
+        on: on
     },
     {
         title: 'Linkedin',
-        url: 'https://www.linkedin.com/in/realvjy/',
+        url: 'https://www.linkedin.com/in/agusfahmiajipramana/',
         type: 'social',
         icon: '/linkedin.svg',
-        on: false
-    },
-    {
-        title: 'Mastodon',
-        url: 'https://mastodon.online/@realvjy',
-        type: 'social',
-        icon: '/mastodon.svg',
-        on: true
-    },
-    {
-        title: 'new collection',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
+        on: on
     },
     // Install section
     {
