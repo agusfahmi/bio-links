@@ -1,13 +1,13 @@
 // date: 1 Aug, 2022
 const bioData = [
     {
-        name: 'Agus Fahmi Aji Pramana Bio Links',
-        username: 'agfmi',
-        url: 'https://agusfahmiajipramana.com',
+        name: 'Agus Fahmi Aji Pramana',
+        username: '',
+        url: '',
         titleImg: false,
         avatar: '/avatar.png',
         nftAvatar: true,
-        description: 'Agus Fahmi Aji Pramana Bio Links',
+        description: '',
         descShow: false,
         subdesc: '',
         subdescShow: false,

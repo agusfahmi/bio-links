@@ -34,7 +34,7 @@ const Links = () => {
 
 
   // Description and subdescription goes here
-  const descriptionText = descShow ? description : `Use the link below wisely following the terms and conditions`
+  const descriptionText = descShow ? description : ``
   const subdescText = subdescShow ? subdesc : ``
 
 
