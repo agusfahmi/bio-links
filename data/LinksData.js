@@ -3,7 +3,7 @@ const webLinks = [
     // All social profile
     {
         title: 'Twitter',
-        url: 'https://twitter.com/agfmi',
+        url: 'https://twitter.com/agusfahmi',
         type: 'social',
         icon: '/twitter.svg',
         on: true
@@ -27,14 +27,14 @@ const webLinks = [
         url: 'https://youtube.com/agusfahmiajipramana',
         type: 'social',
         icon: '/youtube.svg',
-        on: on
+        on: true
     },
     {
         title: 'Linkedin',
         url: 'https://www.linkedin.com/in/agusfahmiajipramana/',
         type: 'social',
         icon: '/linkedin.svg',
-        on: on
+        on: true
     },
     // Install section
     {
