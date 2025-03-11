@@ -1,7 +1,7 @@
 // date: 1 Aug, 2022
 const bioData = [
     {
-        name: 'Agus Fahmi Aji Pramana',
+        name: 'Agus Fahmi Aji Pramana Bio Links',
         username: 'agusfahmiajipramana.com',
         url: 'https://agusfahmiajipramana.com',
         titleImg: true,
@@ -14,7 +14,7 @@ const bioData = [
         newProductUrl: 'https://3dicons.co',
         newProduct: true,
         author: 'realvjy',
-        authorURL: 'https://twitter.com/realvjy',
+        authorURL: 'https://twitter.com/agusfahmi',
         footerText: 'made by'
     },
 ];
