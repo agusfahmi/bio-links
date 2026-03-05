@@ -11,6 +11,17 @@ export default function Layout({ children }) {
     )
 }
 
+import { GoogleAnalytics } from '@next/third-parties/google'
+ 
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+      <GoogleAnalytics gaId="G-G-LY8HM9EH75" />
+    </html>
+  )
+}
+
 const Main = styled.main`
   min-height: 100vh;
   background: url('/bg.png') no-repeat;
