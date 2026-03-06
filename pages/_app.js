@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
 
     return (
         <>
-            <GoogleAnalytics />
+            <GoogleAnalytics trackPageViews gaMeasurementId="G-LY8HM9EH75" />
             <ThemeProvider theme={theme}>
                 <Head>
                     <meta content="width=device-width, initial-scale=1" name="viewport" />
