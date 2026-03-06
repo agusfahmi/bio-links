@@ -18,9 +18,3 @@ export default function Home() {
   )
 }
 
-import { GoogleAnalytics } from '@next/third-parties/google'
- 
-export default function Page() {
-  return <GoogleAnalytics gaId="G-LY8HM9EH75" />
-}
-
