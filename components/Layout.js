@@ -1,6 +1,30 @@
 import styled from 'styled-components'
 import ReactDOM from 'react-dom';
+import Script from "next/script";
 
+export default function RootLayout({ children }) {
+  return (
+    <html>
+      <body>
+        {children}
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-LY8HM9EH75"
+          strategy="afterInteractive"
+        />
+
+        <Script id="ga-script" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LY8HM9EH75');
+          `}
+        </Script>
+      </body>
+    </html>
+  );
+}
 
 
 export default function Layout({ children }) {
@@ -9,17 +33,6 @@ export default function Layout({ children }) {
             {children}
         </Main>
     )
-}
-
-import { GoogleAnalytics } from '@next/third-parties/google'
- 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-      <GoogleAnalytics gaId="G-G-LY8HM9EH75" />
-    </html>
-  )
 }
 
 const Main = styled.main`
